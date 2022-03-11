@@ -30,7 +30,7 @@ class _AuthorizationPageState extends State<AuthorizationPage>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Авторизация"),
+        title: const Text("Авторизация"),
       ),
       body: Form(
         key: _formKey,

@@ -1,7 +1,6 @@
 import 'package:dartz/dartz.dart';
 import 'package:injectable/injectable.dart';
 import 'package:test_task1/core/failure.dart';
-import 'package:test_task1/domain/entities/user_entity.dart';
 
 import '../repo/authorization_repo.dart';
 

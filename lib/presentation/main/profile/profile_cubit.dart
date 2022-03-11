@@ -21,7 +21,7 @@ class ProfileCubit extends Cubit<ProfileState> {
                 if (user != null) {
                   return ProfileState.data(user);
                 } else {
-                  return ProfileState.failed("Не удалось получить данные");
+                  return const ProfileState.failed("Не удалось получить данные");
                 }
               },
             ),
